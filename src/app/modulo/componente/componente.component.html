@@ -1,0 +1,10 @@
+<h1 class="text-center text-primary">{{texto}}</h1>
+<section class="container border border-1 bg-info p-2 text-dark bg-opacity-10">
+  <form action="">
+    <div class="form-group">
+      <label for="mensaje">Valor: </label>
+      <input type="text" class="form-control" id="mensaje" name="mensaje" [(ngModel)]="value">
+    </div>
+    <p>Resultado:{{value|uppercase}}</p>  
+  </form>
+</section>
